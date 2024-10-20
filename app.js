@@ -21,7 +21,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 
 app.use('/api',auth)
-
+// it is middlewares
 
   
 app.listen(PORT,() => {
